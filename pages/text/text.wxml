@@ -1,0 +1,14 @@
+<!--pages/text/text.wxml-->
+<text>Hello World\n</text>
+<text>你好小程序\n</text>
+
+<text selectable>hello aaa\n</text>
+<text selectable="{{true}}" >hello aaa\n</text>
+
+<text space="nbsp">Hello World\n</text>
+<text space="ensp">Hello World\n</text>
+<text space="emsp">Hello World\n</text>
+
+<text>5 &gt; 1\n</text>
+<text decode >5 &gt; 1</text>
+

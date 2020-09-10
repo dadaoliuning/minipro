@@ -1,0 +1,11 @@
+<!--pages/input/input.wxml-->
+<input/>
+<input value="hahaha"/>
+<input type="text"/>
+<input type="text" password/>
+<input placeholder="请输入内容"/>
+<input type="text" 
+bindinput="handleInput"
+bindfocus="handleFocus"
+bindblur="handleBlur"/>
+
